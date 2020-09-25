@@ -17,7 +17,7 @@ ion-app.app-root .header .toolbar-ios {
 }
 
 div#core-tabs-bar {
-    margin-top: 150px;
+   
 }
 
 .footer-ios .toolbar-background-ios, .header-ios .toolbar-background-ios {
@@ -31,7 +31,7 @@ span.button-inner {
 
 /* Main bg colour */
 .content-ios {
-    
+    background: #fffbf0;
   
 }
 
@@ -68,7 +68,7 @@ ion-card.card.card-ios {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 
