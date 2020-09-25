@@ -1,6 +1,10 @@
 .toolbar-background-ios {
-    background: #fff;
+    background: transparent;
     
+}
+
+.toolbar-title-ios {
+   color: #d59e0f;
 }
 
 
