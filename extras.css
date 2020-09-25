@@ -4,7 +4,16 @@
 }
 
 .toolbar-title-ios {
-   color: #d59e0f;
+   color: #fff;
+}
+
+.toolbar-title {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: inherit;
+    white-space: inherit;
+    font-size: 160%!important;
 }
 
 
@@ -159,4 +168,14 @@ ion-app.app-root core-course-module .item.core-course-module-handler {
  border-radius: 10px;
 }
 
+/* margins around sections on course page */
+[dir=ltr] .item-divider-ios {
+    padding-left: 16px;
+    margin: 25px;
+}
 
+
+ion-header.header.header-ios {
+    background: url(https://broughtonsource.co.uk/pluginfile.php/40/course/overviewfiles/002@3x.png);
+    background-size: cover;
+}
