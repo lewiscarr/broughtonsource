@@ -19,7 +19,7 @@
     font-size: 160%!important;
     position: absolute;
     margin-left: -90px;
-    margin-top: -60px;
+    margin-top: -90px;
     background: #fff;
 }
 
@@ -182,8 +182,11 @@ ion-app.app-root core-course-module .item.core-course-module-handler {
 }
 
 
-.toolbar-background.toolbar-background-ios {
-    background: url('https://broughtonsource.co.uk/pluginfile.php/40/course/overviewfiles/002@3x.png');
-    background-size: cover;
+ion-app.app-root .header .toolbar-ios {
+    height: 200px;
+    max-height: 200px;
+    border: none;
+    padding-bottom: 150px;
+    background-image: url(https://broughtonsource.co.uk/pluginfile.php/40/course/overviewfiles/002@3x.png);
 }
 
