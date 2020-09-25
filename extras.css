@@ -47,7 +47,7 @@ ion-app.app-root core-block .item-divider {
 /* Divders H2 */
 
 ion-item-divider.item.item-divider.item-ios.item-divider-ios h2 {
-    color: red;
+    color: #d590ef;
     font-weight: bold;
 }
 
