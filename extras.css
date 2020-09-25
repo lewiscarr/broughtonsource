@@ -4,8 +4,11 @@
 }
 
 .toolbar-title-ios {
-   color: #fff;
+   color: #d59e0f;
 }
+
+
+
 
 .toolbar-title {
     display: block;
@@ -14,6 +17,10 @@
     text-overflow: inherit;
     white-space: inherit;
     font-size: 160%!important;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -60px;
+    background: #fff;
 }
 
 
@@ -175,7 +182,8 @@ ion-app.app-root core-course-module .item.core-course-module-handler {
 }
 
 
-ion-header.header.header-ios {
-    background: url(https://broughtonsource.co.uk/pluginfile.php/40/course/overviewfiles/002@3x.png);
+.toolbar-background.toolbar-background-ios {
+    background: url('https://broughtonsource.co.uk/pluginfile.php/40/course/overviewfiles/002@3x.png');
     background-size: cover;
 }
+
