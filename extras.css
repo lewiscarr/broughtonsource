@@ -32,7 +32,7 @@ span.button-inner {
 /* Main bg colour */
 .content-ios {
     
-    background-color: yellow;
+  
 }
 
 ion-app.app-root core-block .item-divider {
@@ -42,9 +42,7 @@ ion-app.app-root core-block .item-divider {
 
 /* Divders H2 */
 
-div#core-tabs-bar {
-    margin-top: 148px;
-}
+
 
 /* Divders H2 */
 
