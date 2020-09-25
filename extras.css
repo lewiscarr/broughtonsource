@@ -61,3 +61,34 @@ ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] {
     color: #000!important;
     border-bottom-color: #000!important;
 }
+
+
+
+/* Course tiles */
+
+ion-card.card.card-ios {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.core-course-thumb {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+/* Removes category from course tile */
+ion-item.core-course-link.item.item-block.item-ios span.core-course-category.ng-star-inserted {
+    display: none;
+}
+
+/* coursename course tile */
+.core-course-title.core-course-with-buttons h2 {
+    color: #d59e0f;
+    font-weight: bold;
+    font-size: 110%;
+}
+
