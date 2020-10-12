@@ -1,0 +1,192 @@
+.toolbar-background-ios {
+    background: transparent;
+    
+}
+
+.toolbar-title-ios {
+   color: #d59e0f;
+}
+
+
+
+
+.toolbar-title {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: inherit;
+    white-space: inherit;
+    font-size: 160%!important;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -90px;
+    background: #fff;
+}
+
+
+ion-app.app-root page-core-courses-dashboard .toolbar-title .core-header-logo {
+    display: block!important;
+   
+}
+
+ion-app.app-root .header .toolbar-ios {
+    height: 200px;
+    max-height: 200px;
+    border: none;
+    padding-bottom: 150px;
+}
+
+div#core-tabs-bar {
+   
+}
+
+.footer-ios .toolbar-background-ios, .header-ios .toolbar-background-ios {
+   
+    border: none;
+}
+
+span.button-inner {
+    color: #000;
+}
+
+/* Main bg colour */
+.content-ios {
+    background: #fffbf0;
+  
+}
+
+ion-app.app-root core-block .item-divider {
+    min-height: 60px;
+    background: transparent;
+}
+
+/* Divders H2 */
+
+
+
+/* Divders H2 */
+
+ion-item-divider.item.item-divider.item-ios.item-divider-ios h2 {
+    color: #d59e0f;
+    font-weight: bold;
+}
+
+
+
+/* Dashboard Tabs */
+
+ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] {
+    color: #d59e0f;!important;
+    border-bottom-color:#d59e0f;!important;
+}
+
+
+
+/* Course tiles */
+
+ion-card.card.card-ios {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+       -webkit-box-shadow: 4px 4px 5px 0px rgba(148,146,148,1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(148,146,148,1);
+    box-shadow: 4px 4px 5px 0px rgba(148,146,148,1);
+}
+
+
+.core-course-thumb {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+/* Removes category from course tile */
+ion-item.core-course-link.item.item-block.item-ios span.core-course-category.ng-star-inserted {
+    display: none;
+}
+
+/* coursename course tile */
+.core-course-title.core-course-with-buttons h2 {
+    color: #d59e0f;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+
+/* more dots icon */
+ion-app.app-root core-block .item-divider .icon {
+    color: #d59e0f;
+}
+
+
+/* select dropdown */
+ion-app.app-root .core-button-select.button-ios, ion-app.app-root .core-button-select.select-ios, ion-app.app-root ion-select.core-button-select.button-ios, ion-app.app-root ion-select.core-button-select.select-ios {
+    background: #fff;
+    
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(148,146,148,1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(148,146,148,1);
+    box-shadow: 4px 4px 5px 0px rgba(148,146,148,1);
+}
+
+.tabs-ios .tabbar {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top: .55px solid rgba(0,0,0,.3);
+    background: #fff;
+}
+
+
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon, .tabs-ios ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] .tab-button-icon, ion-app.app-root .core-tabs-bar .tabs-ios .tab-slide[aria-selected=true] .tab-button-icon {
+     color: #d59e0f;
+}
+
+.tabs-ios .tab-button-icon {
+    
+    color: #8b8b8b;
+}
+
+
+/* course dividers */
+.item-divider-ios-light, .item-ios-light {
+    color: #d59e0f;
+    background-color: transparent;
+}
+
+
+ion-app.app-root core-course-module {
+    background: #fff;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+   
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(148,146,148,1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(148,146,148,1);
+    box-shadow: 4px 4px 5px 0px rgba(148,146,148,1);
+}
+
+ion-app.app-root core-course-module .item.core-course-module-handler {
+ border-radius: 10px;
+}
+
+/* margins around sections on course page */
+[dir=ltr] .item-divider-ios {
+    padding-left: 16px;
+    margin: 25px;
+}
+
+
+ion-app.app-root .header .toolbar-ios {
+    height: 200px;
+    max-height: 200px;
+    border: none;
+    padding-bottom: 150px;
+    background-image: url(https://broughtonsource.co.uk/pluginfile.php/40/course/overviewfiles/002@3x.png);
+}
+
